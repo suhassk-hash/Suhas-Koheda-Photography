@@ -8,14 +8,15 @@
 
 body {
   font-family: montserrat;
-  background-color: black;
+  background-color: #16161D;
 }
 nav {
-  background: black;
+  background: #16161D;
   height: 80px;
   width: 100%;
 }
 label.logo {
+  background-color: #16161D;
   color: white;
   font-size: 35px;
   line-height: 80px;
@@ -192,4 +193,7 @@ u{
 .activesss{
   margin-left: 0%;
   color: white;
+}
+.Bodyc{
+background-color:#16161D;
 }
