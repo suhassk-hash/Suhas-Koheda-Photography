@@ -7,7 +7,8 @@
 }
 
 body {
-  font-family: montserrat;
+  font-family: 'EB Garamond', serif;
+  text-transform: capitalize;
   background-color: #16161D;
 }
 nav {
@@ -33,18 +34,20 @@ nav ul li {
   margin: 0 5px;
 }
 nav ul li a {
-  font-family: caveat;
+  font-family: 'EB Garamond', serif;
+  text-transform: capitalize;
   color: white;
   font-size: 17px;
   padding: 7px 13px;
   border-radius: 3px;
-  text-transform: uppercase;
+  
 }
 a.active,
 a:hover {
-  font-family: "caveat", cursive;
+  font-family: "'EB Garamond', serif";
   background: lightslategray;
   transition: 0.5s;
+  
 }
 .checkbtn {
   font-size: 30px;
@@ -93,13 +96,15 @@ a:hover {
   a.active {
     background: none;
     color: white;
+    font-family: garamond;
   }
   #check:checked ~ ul {
     left: 0;
+    font-family: garamond;
   }
 }
 .logo {
-  font-family: "caveat", sans-serif;
+  font-family: "'EB Garamond', serif";
   text-align: center;
   color: white;
   background: black;
@@ -111,13 +116,13 @@ a:hover {
   font-weight: bold;
 }
 .active {
-  font-family: "caveat", sans-serif;
+  font-family: "'EB Garamond', serif";
   text-align: center;
   color: white;
   background: black;
 }
 .actives {
-  font-family: "caveat", sans-serif;
+  font-family: "'EB Garamond', serif";
   text-align: center;
   color: white;
   font-weight: lighter;
@@ -149,7 +154,7 @@ a:hover {
 }
 
 .LINKS {
-  font-family: "Caveat", cursive;
+  font-family: "'EB Garamond', serif";
   font-size: 30px;
 }
 
@@ -172,13 +177,13 @@ a:hover {
   }
 }
 p {
-  font-family: caveat;
+  font-family: 'EB Garamond', serif;;
   margin-left: 10%;
   font-size: xx-large;
   color: white;
 }
 .Suhas {
-  font-family: caveat;
+  font-family: 'EB Garamond', serif;;
   margin-left: 20%;
   font-size: xx-large;
   color: white;
