@@ -23,6 +23,7 @@ label.logo {
   line-height: 80px;
   padding: 0 100px;
   font-weight: normal;
+  font-family: garamond;
 }
 nav ul {
   float: right;
@@ -34,7 +35,7 @@ nav ul li {
   margin: 0 5px;
 }
 nav ul li a {
-  font-family: 'EB Garamond', serif;
+  font-family:  Garamond, serif;
   text-transform: capitalize;
   color: white;
   font-size: 17px;
@@ -65,6 +66,7 @@ a:hover {
   label.logo {
     font-size: 30px;
     padding-left: 50px;
+    font-family: garamond;
   }
   nav ul li a {
     font-size: 16px;
