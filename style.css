@@ -9,15 +9,15 @@
 body {
   font-family: 'EB Garamond', serif;
   text-transform: capitalize;
-  background-color: #16161D;
+  background-color: #29465B;
 }
 nav {
-  background: #16161D;
+  background-color: #29465B;
   height: 80px;
   width: 100%;
 }
 label.logo {
-  background-color: #16161D;
+  background-color: #29465B;
   color: white;
   font-size: 35px;
   line-height: 80px;
@@ -202,5 +202,8 @@ u{
   color: white;
 }
 .Bodyc{
-background-color:#16161D;
+  background-color: #29465B;
+}
+.qwerty{
+  color: white;
 }
