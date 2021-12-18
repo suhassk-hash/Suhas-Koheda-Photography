@@ -24,7 +24,7 @@ label.logo {
   padding: 0 100px;
   font-weight: normal;
   font-family: garamond;
-  filter: drop-shadow(2px 4px 8px );
+ 
 }
 nav ul {
   float: right;
@@ -163,8 +163,9 @@ a:hover {
 
 .column {
   float: left;
-  width: 33.33%;
-  padding: 5px;
+  width: 30.33%;
+  
+  margin-left: 1%;
 }
 
 /* Clear floats after image containers */
@@ -209,3 +210,72 @@ u{
   color: white;
 }
 #29465B
+.column{
+  float:left;
+  width:33.33%;
+  padding:5px;
+  
+}
+iframe{
+ width: 500;
+ height: 625;
+}
+.row::after{
+  content:"";
+  clear:both;
+  display:table;
+}
+@media screen and (max-width:500px){
+  .column{
+    width:100%;
+  }
+  }
+
+    .column10{
+      float:left;
+      margin-left: 10%;
+      width:5%;
+      font-family: 'EB garamond' ,  serif !important;
+      font-size: large;
+    }
+    
+    .row11::after{
+      content:"";
+      clear:both;
+      display:table
+    }
+    @media screen and (max-width:500px){
+      .column10{
+        max-width:100%
+      }
+      }
+
+a.Hover:hover{
+  float:left;
+  margin-left: 7%;
+  width:10%;
+  font-family: 'EB garamond' ,  serif !important;
+  font-size: large;
+}
+a.Hover1:hover{
+  float:left;
+      margin-left: 2%;
+      width:10%;
+      font-family: 'EB garamond' ,  serif !important;
+      font-size: large;
+}
+.row11::after{
+  content:"";
+  clear:both;
+  display:table
+}
+@media screen and (max-width:500px){
+  .column10{
+    max-width:100%
+  }
+  }
+.Image-8{
+     max-width: 100%;
+     height: 400px;
+     
+    }
