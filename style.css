@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'EB Garamond', serif;
+  
   text-transform: capitalize;
   background-color: #16161d;
 }
@@ -200,14 +200,14 @@ u{
   text-decoration: underline;
 }
 .activesss{
-  margin-left: 0%;
+  margin-left: -20%;
   color: white;
 }
 .Bodyc{
   background-color: #16161d;
 }
 .qwerty{
-  color: white;
+  color: white !important;
 }
 #29465B
 .column{
@@ -279,3 +279,64 @@ a.Hover1:hover{
      height: 400px;
      
     }
+    /*Container-3-Styling*/
+.column11{
+  float:left;
+  width:50%;
+  padding:20%;
+  margin-top: -15%;
+  font-family: roboto condensed !important;
+  
+}
+.row::after{
+  content:"";
+  clear:both;
+  display:table
+}
+
+@media screen and (max-width:500px){
+  .column11{
+    width:100%
+  }
+  }
+  .column12{
+    float:left;
+    width:50%;
+    padding:7%;
+    font-family: roboto condensed !important;
+margin-left: -10%;
+    margin-top:3%;
+    color: white;
+  }
+  .row::after{
+    content:"";
+    clear:both;
+    display:table
+  }
+  @media screen and (max-width:500px){
+    .column12{
+      width:100%;
+    }
+    }
+
+.Font-Family{
+  color: white;
+  font-family: roboto condensed !important;
+  font-size: x-large;
+}
+.Font-Family1{
+  color: white;
+  font-family:caveat  !important;
+  font-size: medium;
+  margin-top: -6%;
+}
+.image-9{
+  border-radius: 20px;
+  height: 500px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  filter: drop-shadow(5px 4px 10px white );
+  -webkit-filter: drop-shadow(5px 4px 10px white );
+}
