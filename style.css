@@ -18,6 +18,7 @@ nav {
 }
 label.logo {
   background-color: #16161d;
+  font-family: "'EB Garamond', serif" !important;
   color: white;
   font-size: 35px;
   line-height: 80px;
@@ -29,14 +30,16 @@ label.logo {
 nav ul {
   float: right;
   margin-right: 20px;
+  font-family: "'EB Garamond', serif" !important;
 }
 nav ul li {
   display: inline-block;
   line-height: 80px;
   margin: 0 5px;
+  font-family: "'EB Garamond', serif" !important;
 }
 nav ul li a {
-  font-family:  Garamond, serif;
+  font-family: "'EB Garamond', serif" !important;
   text-transform: capitalize;
   color: white;
   font-size: 17px;
@@ -46,7 +49,7 @@ nav ul li a {
 }
 a.active,
 a:hover {
-  font-family: "'EB Garamond', serif";
+  font-family: "'EB Garamond', serif" ;
   background: lightslategray;
   transition: 0.5s;
   
@@ -67,10 +70,11 @@ a:hover {
   label.logo {
     font-size: 30px;
     padding-left: 50px;
-    font-family: garamond;
+    font-family: "'EB Garamond', serif" !important;
   }
   nav ul li a {
     font-size: 16px;
+    font-family: "'EB Garamond', serif" !important;
   }
 }
 @media (max-width: 858px) {
@@ -82,6 +86,7 @@ a:hover {
     width: 100%;
     height: 100vh;
     background: #16161d;
+    font-family: "'EB Garamond', serif" !important;
     top: 80px;
     left: -100%;
     text-align: center;
@@ -90,6 +95,7 @@ a:hover {
   nav ul li {
     display: block;
     margin: 50px 0;
+    font-family: "'EB Garamond', serif" !important;
     line-height: 30px;
   }
   nav ul li a {
@@ -107,7 +113,7 @@ a:hover {
   }
 }
 .logo {
-  font-family: "'EB Garamond', serif";
+  font-family: "'EB Garamond', serif" !important;
   text-align: center;
   color: white;
   background: #16161d;
@@ -119,13 +125,13 @@ a:hover {
   font-weight: bold;
 }
 .active {
-  font-family: "'EB Garamond', serif";
+  font-family: "'EB Garamond', serif" !important;
   text-align: center;
   color: white;
   background: #16161d;
 }
 .actives {
-  font-family: "'EB Garamond', serif";
+  font-family: "'EB Garamond', serif" !important;
   text-align: center;
   color: white;
   font-weight: lighter;
@@ -157,7 +163,7 @@ a:hover {
 }
 
 .LINKS {
-  font-family: "'EB Garamond', serif";
+  font-family: "'EB Garamond', serif" !important;
   font-size: 30px;
 }
 
@@ -181,13 +187,13 @@ a:hover {
   }
 }
 p {
-  font-family: 'EB Garamond', serif;;
+  font-family: "'EB Garamond', serif" !important;
   margin-left: 10%;
   font-size: xx-large;
   color: white;
 }
 .Suhas {
-  font-family: 'EB Garamond', serif;;
+  font-family: "'EB Garamond', serif" !important;
   margin-left: 20%;
   font-size: xx-large;
   color: white;
@@ -207,6 +213,7 @@ u{
 }
 .qwerty{
   color: white !important;
+  font-family: "'EB Garamond', serif" !important;
 }
 #29465B
 .column{
@@ -338,4 +345,10 @@ a.Hover1:hover{
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
+}
+.font_10{
+  font-family: caveat !important;
+}
+.color_11{
+  font-family: caveat !important;
 }

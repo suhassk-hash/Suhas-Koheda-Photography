@@ -15,28 +15,6 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Raleway+Dots&family=Yellowtail&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-<script>
-  var isNS = (navigator.appName == "Netscape") ? 1 : 0;
-  if(navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
-  function mischandler(){
-  return false;
-  }
-  function mousehandler(e){
-  var myevent = (isNS) ? e : event;
-  var eventbutton = (isNS) ? myevent.which : myevent.button;
-  if((eventbutton==2)||(eventbutton==3)) return false;
-  }
-  document.oncontextmenu = mischandler;
-  document.onmousedown = mousehandler;
-  document.onmouseup = mousehandler;
-  </script>
-
-
-
-
-
-
-
 
 <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png">
@@ -68,7 +46,7 @@
 </head>
   
   
-  <body  class="Bodyc"><Body oncontextmenu="return false" onselectstart="return false" ondragstart="return false"></Body>
+  <body  class="Bodyc">
     <nav>
       <input type="checkbox" id="check">
       <label for="check" class="checkbtn">
