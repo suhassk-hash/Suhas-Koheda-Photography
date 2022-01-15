@@ -9,10 +9,10 @@
 body {
   
   text-transform: capitalize;
-  background-color: #16161d;
+  
 }
 nav {
-  background-color: #16161d;
+  
   height: 80px;
   width: 100%;
 }
@@ -209,8 +209,14 @@ u{
   color: white;
 }
 .Bodyc{
-  background-color: #16161d;
+  background-color: #16161d; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
+
 .qwerty{
   color: white !important;
   font-family: "'EB Garamond', serif" !important;
@@ -348,7 +354,29 @@ a.Hover1:hover{
 }
 .font_10{
   font-family: caveat !important;
+  font-size:25px;
+  font-style: caveat;
+}
+.Font_11{
+  font-family: caveat !important;
+  font-size: medium;
+  font-style: caveat;
+  text-align: center;
 }
 .color_11{
   font-family: caveat !important;
+}
+.Icons{
+  width: 30px;
+  height: 30px;
+}
+.Icons-1{
+  float: right;
+  margin-right: 5%;
+}
+.Image-1{
+  width: 20%;
+}
+.Icon{
+  text-align: center;
 }
