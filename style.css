@@ -380,3 +380,57 @@ a.Hover1:hover{
 .Icon{
   text-align: center;
 }
+.column8{
+  float:left;
+  width:33.33%;
+  padding:5px;
+}
+.row8::after{
+  content:"";
+  clear:both;
+  display:table
+}
+@media screen and (max-width:500px){
+  .column8{
+    width:100%
+  }
+  }
+  .container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
