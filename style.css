@@ -447,8 +447,22 @@ a.Hover1:hover{
 .Preset-column {
   float: left;
   text-align: center;
-  width: 30.33%;
-  margin-left: 1%;
+  width: 30%;
+  margin-left: 2.5%;
   background-color: #16161d;
   box-shadow: 0px 2px 0px 2px whitesmoke;
+}
+@media screen and (max-width: 500px) {
+  .Preset-column {
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+.Preset-Description{
+  text-align: center;
+  font-size: medium;
+}
+.Preset-Price{
+  color:azure;
+  font-size: xx-large;
 }
