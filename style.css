@@ -170,7 +170,6 @@ a:hover {
 .column {
   float: left;
   width: 30.33%;
-  
   margin-left: 1%;
 }
 
@@ -188,10 +187,11 @@ a:hover {
 }
 p {
   font-family: "kalam" !important;
-  margin-left: 10%;
+  margin-left: 2%;
   font-size: xx-large;
   color: white;
 }
+
 .Suhas {
   font-family: "kalam" !important;
   margin-left: 20%;
@@ -245,7 +245,7 @@ iframe{
 
     .column10{
       float:left;
-      margin-left: 10%;
+      
       width:5%;
       margin-bottom: 10%;
       font-family: 'EB garamond' ,  serif !important;
@@ -317,7 +317,7 @@ a.Hover1:hover{
   float:left;
   width:50%;
   padding:10%;
-  margin-left: -10%; 
+  
   margin-top:10%;
 }
 .row::after{
@@ -434,3 +434,21 @@ a.Hover1:hover{
     font-size: 16px;
     padding: 16px 32px;
   }
+ 
+ /*Preset Container Styling*/
+ .Preset-Text{
+  font-family: "kalam" !important;
+  font-size: xx-large;
+  color: white;
+}
+.Presets{
+  max-width: 100%;
+}
+.Preset-column {
+  float: left;
+  text-align: center;
+  width: 30.33%;
+  margin-left: 1%;
+  background-color: #16161d;
+  box-shadow: 0px 2px 0px 2px whitesmoke;
+}
