@@ -185,12 +185,61 @@ color: white;
   font-weight: 600;
   font-size: larger;
 }
+.Personal-Favourites-Text{
+  padding: 150px;
+  font-weight: 500;
+  font-size:xx-large;
+}
+.Product-Favourites-Text{
+  padding: 150px;
+  font-weight: 500;
+  font-size:xx-large;
+}
+@media screen and (max-width:500px) {
+  .Personal-Favourites-Text{
+    padding: 120px;
+    font-weight: 500;
+    font-size:large;
+  }
+  .Product-Favourites-Text{
+    padding: 120px;
+    font-weight: 500;
+    font-size:large;
+  }
+}
 /*Div Container Styling*/
 /*About page*/
 .column{
   float:left;
   padding-left: 25%;
   padding-right: 25%;
+  font-family: kalam !important;
+  font-weight: 800;
+  font-size: x-large;
+}
+.column1{
+  float:left;
+  width: 50%;
+  padding: 2px;
+  font-family: kalam !important;
+  font-weight: 800;
+  font-size: x-large;
+}
+.Personal-Favourites{
+  background-color: #16161d;
+  height: 435px;
+  text-align: center;
+  color: white;
+}
+.Product-Favourites{
+  background-color: #16161d;
+  height: 435px;
+  text-align: center;
+  color: white;
+}
+.column2{
+  float:left;
+  width: 33%;
   font-family: kalam !important;
   font-weight: 800;
   font-size: x-large;
@@ -204,8 +253,18 @@ color: white;
   .column{
     width:100%
   }
+  .column1{
+    width:100%
+  }
+  .column2{
+    width: 100%;
+  }
   }
 /*Footer Styling*/
 .Footer-Paragraph{
   text-align: center;
+}
+.Personal-Favourite-Image{
+  max-width: 100%;
+  padding: 10px;
 }
