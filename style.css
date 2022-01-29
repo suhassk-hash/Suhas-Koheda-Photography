@@ -141,7 +141,7 @@ font-size: xx-large;
 text-align: center;
 font-size: x-large;
 font-weight: 400;
-margin-top: -40%;
+margin-top: -30%;
 color: white;
 }
 /*Images Styling*/
@@ -154,7 +154,7 @@ color: white;
 /*Headings Styling*/
 .Main-Page-Headings{
   text-align: center;
-  margin-top: 35%;
+  margin-top: 25%;
 }
 .About-Page-Headings{
   text-align: center;
