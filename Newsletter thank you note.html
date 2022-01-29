@@ -1,0 +1,243 @@
+
+<body>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+      <style>
+      /*Nav bar styling*/
+  * {
+      padding: 0;
+      margin: 0;
+      text-decoration: none;
+      list-style: none;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: kalam;
+      background-color: white;
+      text-align: center;
+    }
+    nav {
+      background: white;
+      height: 80px;
+      width: 100%;
+    }
+    label.logo {
+      color: black;
+      line-height: 80px;
+      font-weight: normal;
+      background-color: white;
+      font-weight: 800;
+    }
+    nav ul {
+      float: right;
+      margin-right: 20px;
+    }
+    nav ul li {
+      display: inline-block;
+      line-height:80px;
+      margin: 0 5px;
+    }
+    nav ul li a {
+      font-family: kalam;
+      color: black;
+      background-color: white;
+      text-transform: uppercase;
+    }
+    a.active,
+    a:hover {
+      font-family: kalam;
+      transition: 0.5s;
+    }
+    .checkbtn {
+      font-size: 30px;
+      color: black;
+      float: left;
+      line-height: 80px;
+      margin-left: 25px;
+      cursor: pointer;
+      display: none;
+    }
+    #check {
+      display: none;
+    }
+    @media (max-width: 952px) {
+      label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+      }
+      nav ul li a {
+        font-size: 16px;
+      }
+    }
+    @media (max-width: 858px) {
+      .checkbtn {
+        display: block;
+      }
+      ul {
+        position: fixed;
+        width: 100%;
+        background: white;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -o-transition: all 0.5s;
+  }
+      nav ul li {
+        display: block;
+      }
+      nav ul li a {
+        font-size: 20px;
+        font-weight: 800;
+      }
+      a:hover,
+      a.active {
+        background: none;
+        color: black;
+      }
+      #check:checked ~ ul {
+        left: 0;
+      }
+    }
+    .logo {
+      font-family: kalam;
+      text-align: center;
+      color: black;
+      background: white;
+      font-weight: 700;
+      font-size: 35px;
+      line-height: 80px;
+      padding: 0 100px;
+      font-weight: bold;
+    }
+    .active {
+      font-family: kalam;
+      text-align: center;
+      font-weight: 800;
+      color: black;
+      background: white;
+    }
+  /*Preset button styling*/
+  #Preset-Button{
+  border-color: black;
+  padding: 7px 13px;
+  font-size: xx-large;
+  }
+  /*Icons Styling*/
+  .Nav-Icon{
+    width: 20px;
+    height: 20px;
+  }
+  .First-Page-Icon{
+    width: 30px;
+    height: 30px;
+  }
+  .Social-Icons li{
+    display: inline-block;
+  }
+  .Social-Icons {
+    text-align: center;
+  }
+  /*FIrst Page Styling*/
+  .First-Page-Main{
+  text-align: center;
+  font-size: x-large;
+  font-weight: 800;
+  
+  color: black;
+  }
+  /*Images Styling*/
+  .First-Page-Image{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    max-height: 550px;
+  }
+  /*Headings Styling*/
+  .Main-Page-Headings{
+    text-align: center;
+    margin-top: 25%;
+  }
+  .About-Page-Headings{
+    text-align: center;
+  }
+  .Gear-Sub-Heading{
+    color: black;
+  }
+  /*Paragraphs Styling*/
+  .Main-Page-Paragraphs{
+    text-align: center;
+    font-weight: 600;
+    font-size: larger;
+  }
+  .About-Page-Paragraphs{
+    text-align: center;
+    font-weight: 600;
+    font-size: larger;
+  }
+  /*Div Container Styling*/
+  /*About page*/
+  .column{
+    float:left;
+    padding-left: 25%;
+    padding-right: 25%;
+    font-family: kalam !important;
+    font-weight: 800;
+    font-size: x-large;
+  }
+  .row::after{
+    content:"";
+    clear:both;
+    display:table
+  }
+  @media screen and (max-width:500px){
+    .column{
+      width:100%
+    }
+    }
+  /*Footer Styling*/
+  .Footer-Paragraph{
+    text-align: center;
+  }
+  .Footer-Paragraph-1{
+    text-align: center;
+    font-size: x-large;
+    color: black;
+  }
+  .Logo{
+  text-align: center;
+  }
+  </style>
+           <div class="Logo">
+    <label class="logo"> <a href="./index.html" style="color: black;margin-left: -1%;font-family: kalam;">Suhas Koheda Photography</a> </label></div>
+    <div class="First-Page-Main">
+        <p style="font-family: kalam;">Hey {{145074664__COL$C}} Hii <br>
+            <br> Welcome to Suhas Koheda Photography <br>
+            <br>Thank You For Subscribing To My Newsletter <br>
+             <br>From Now You Will Be Receiving Mails From Me 
+             <br><br><br>Buy My Prints And Presets From The Links Given Below
+            </p>
+      </div>
+      <div class="First-Page-Main">
+      <li><a class="active" href="./index4.html" style="font-family: kalam;">"Prints"</a></li>
+    <li><a class="active" href="./index6.html" id="Preset-Button" style="font-family: kalam;">"Presets"</a></li>
+    </div>
+    <footer>
+        <br><br>
+        <h5 class="Footer-Paragraph-1"><a href="./index5.html"class="Footer-Paragraph-1" style="font-family: kalam;">"Contact Me"</a></h5>
+            <div class="Social-Icons"><li><a class="active" href="https://instagram.com/suhas_sharma_koheda" target="_blank">My Instagram</a> </li>
+              <li><a class="active" href="https://500px.com/p/suhaskohedaphotography?view=photos" target="_blank">My 500PX Account</a> </li>
+              <li><a class="active" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=suhaskohedaphotography@gmail.com" target="_blank" >Mail Me</a> </li>
+              <li><a class="active" href="#"target="_blank">My Twitter</a> </li>
+              <li><a class="active" href="#"target="_blank">My Twitter</a> </li>
+              <li><a class="active" href="https://github.com/suhassk-hash" target="_blank">My Github</a> </li></div>
+              <br><br>
+           <h5 class="Footer-Paragraph" style="font-family: kalam;">| Suhas Sharma Koheda | All Rights Reserved | &copy;2022 |</h5>
+          </footer>
+  </body>
+  </html>
