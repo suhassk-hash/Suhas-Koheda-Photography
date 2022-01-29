@@ -45,9 +45,9 @@
   .checkbtn {
     font-size: 30px;
     color: black;
-    float: right;
+    float: left;
     line-height: 80px;
-    margin-right: 40px;
+    margin-left: 25px;
     cursor: pointer;
     display: none;
   }
