@@ -21,6 +21,7 @@
     line-height: 80px;
     font-weight: normal;
     background-color: white;
+    font-weight: 800;
   }
   nav ul {
     float: right;
@@ -155,9 +156,44 @@ color: white;
   text-align: center;
   margin-top: 35%;
 }
+.About-Page-Headings{
+  text-align: center;
+}
+.Gear-Sub-Heading{
+  color: black;
+}
 /*Paragraphs Styling*/
 .Main-Page-Paragraphs{
   text-align: center;
   font-weight: 600;
   font-size: larger;
+}
+.About-Page-Paragraphs{
+  text-align: center;
+  font-weight: 600;
+  font-size: larger;
+}
+/*Div Container Styling*/
+/*About page*/
+.column{
+  float:left;
+  padding-left: 25%;
+  padding-right: 25%;
+  font-family: kalam !important;
+  font-weight: 800;
+  font-size: x-large;
+}
+.row::after{
+  content:"";
+  clear:both;
+  display:table
+}
+@media screen and (max-width:500px){
+  .column{
+    width:100%
+  }
+  }
+/*Footer Styling*/
+.Footer-Paragraph{
+  text-align: center;
 }
