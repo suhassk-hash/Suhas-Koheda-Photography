@@ -1,468 +1,163 @@
+/*Nav bar styling*/
 * {
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-  list-style: none;
-  box-sizing: border-box;
-}
-
-body {
-  
-  text-transform: capitalize;
-  
-}
-nav {
-  
-  height: 80px;
-  width: 100%;
-}
-label.logo {
-  background-color: #16161d;
-  font-family: "kalam" !important;
-  color: white;
-  font-size: 35px;
-  line-height: 80px;
-  padding: 0 100px;
-  font-weight: normal;
-  font-family: garamond;
- 
-}
-nav ul {
-  float: right;
-  margin-right: 20px;
-  font-family: "kalam" !important;
-}
-nav ul li {
-  display: inline-block;
-  line-height: 80px;
-  margin: 0 5px;
-  font-family: "kalam" !important;
-}
-nav ul li a {
-  font-family: "kalam" !important;
-  text-transform: capitalize;
-  color: white;
-  font-size: 17px;
-  padding: 7px 13px;
-  border-radius: 3px;
-  
-}
-a.active,
-a:hover {
-  font-family: "kalam" ;
-  background: lightslategray;
-  transition: 0.5s;
-  
-}
-.checkbtn {
-  font-size: 30px;
-  color: white;
-  float: right;
-  line-height: 80px;
-  margin-right: 40px;
-  cursor: pointer;
-  display: none;
-}
-#check {
-  display: none;
-}
-@media (max-width: 952px) {
-  label.logo {
-    font-size: 30px;
-    padding-left: 50px;
-    font-family: "kalam" !important;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
   }
-  nav ul li a {
-    font-size: 16px;
-    font-family: "kalam" !important;
+  
+  body {
+    font-family: kalam;
+    background-color: white;
   }
-}
-@media (max-width: 858px) {
-  .checkbtn {
-    display: block;
-  }
-  ul {
-    position: fixed;
+  nav {
+    background: white;
+    height: 80px;
     width: 100%;
-    height: 100vh;
-    background: #16161d;
-    font-family: "kalam" !important;
-    top: 80px;
-    left: -100%;
-    text-align: center;
-    transition: all 0.5s;
+  }
+  label.logo {
+    color: black;
+    line-height: 80px;
+    font-weight: normal;
+    background-color: white;
+  }
+  nav ul {
+    float: right;
+    margin-right: 20px;
   }
   nav ul li {
-    display: block;
-    margin: 50px 0;
-    font-family: "kalam" !important;
-    line-height: 30px;
+    display: inline-block;
+    line-height:80px;
+    margin: 0 5px;
   }
   nav ul li a {
-    font-size: 20px;
+    font-family: kalam;
+    color: black;
+    background-color: white;
+    text-transform: uppercase;
   }
-  a:hover,
-  a.active {
-    background: none;
-    color: white;
-    font-family: garamond;
+  a.active,
+  a:hover {
+    font-family: kalam;
+    transition: 0.5s;
   }
-  #check:checked ~ ul {
-    left: 0;
-    font-family: garamond;
+  .checkbtn {
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
   }
-}
-.logo {
-  font-family: "kalam" !important;
-  text-align: center;
-  color: white;
-  background: #16161d;
-  font-weight: 700;
-  color: white;
-  font-size: 35px;
-  line-height: 80px;
-  padding: 0 100px;
-  font-weight: bold;
-}
-.active {
-  font-family: "kalam" !important;
-  text-align: center;
-  color: white;
-  background: #16161d;
-}
-.actives {
-  font-family: "kalam" !important;
-  text-align: center;
-  color: white;
-  font-weight: lighter;
-  font-size: xx-large;
-}
-.video {
-  position: relative;
-  padding-bottom: 56.25%;
-}
-.video iframe {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-.video-layout {
-  max-width: 500px;
-  border: 1px solid green;
-}
-#vid-left {
-  max-width: fit-content;
-  margin-top: -10%;
-  float: left;
-}
-
-#vid-right {
-  max-width: fit-content;
-  margin-left: 40%;
-  float: right;
-}
-
-.LINKS {
-  font-family: "kalam" !important;
-  font-size: 30px;
-}
-
-.column {
-  float: left;
-  width: 30.33%;
-  margin-left: 1%;
-}
-
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 500px) {
-  .column {
-    width: 100%;
+  #check {
+    display: none;
   }
-}
-p {
-  font-family: "kalam" !important;
-  margin-left: 2%;
-  font-size: xx-large;
-  color: white;
-}
-
-.Suhas {
-  font-family: "kalam" !important;
-  margin-left: 20%;
-  font-size: xx-large;
-  color: white;
-}
-.activess {
-  margin-left: 25%;
-}
-
-u{
-  text-decoration: underline;
-}
-.activesss{
-  color: white;
-}
-.Bodyc{
-  background-color: #16161d; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-
-.qwerty{
-  color: white !important;
-  font-family: "kalam" !important;
-}
-#29465B
-.column{
-  float:left;
-  width:33.33%;
-  padding:5px;
-  
-}
-iframe{
- width: 500;
- height: 625;
-}
-.row::after{
-  content:"";
-  clear:both;
-  display:table;
-}
-@media screen and (max-width:500px){
-  .column{
-    width:100%;
-  }
-  }
-
-    .column10{
-      float:left;
-      
-      width:5%;
-      margin-bottom: 10%;
-      font-family: 'EB garamond' ,  serif !important;
-      font-size: large;
+  @media (max-width: 952px) {
+    label.logo {
+      font-size: 30px;
+      padding-left: 50px;
     }
-    
-    .row11::after{
-      content:"";
-      clear:both;
-      display:table
+    nav ul li a {
+      font-size: 16px;
     }
-    @media screen and (max-width:500px){
-      .column10{
-        max-width:100%
-      }
-      }
-
-a.Hover:hover{
-  float:left;
-  margin-left: 7%;
-  width:10%;
-  font-family: 'EB garamond' ,  serif !important;
-  font-size: large;
-}
-a.Hover1:hover{
-  float:left;
-      margin-left: 2%;
-      width:10%;
-      font-family: 'EB garamond' ,  serif !important;
-      font-size: large;
-}
-.row11::after{
-  content:"";
-  clear:both;
-  display:table
-}
-@media screen and (max-width:500px){
-  .column10{
-    max-width:100%
   }
-  }
-.Image-8{
-     max-width: 100%;
-     height: 400px;
-     
+  @media (max-width: 858px) {
+    .checkbtn {
+      display: block;
     }
-    /*Container-3-Styling*/
-
-  /*Container-3-Styling*/
-.column11{
-  float:left;
-  width:50%;
-  padding:10%;
-  font-family: kalam !important;
-  font-weight: 600;
+    ul {
+      position: fixed;
+      width: 100%;
+      background: white;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all 0.5s;
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      -ms-transition: all 0.5s;
+      -o-transition: all 0.5s;
 }
-.row::after{
-  content:"";
-  clear:both;
-  display:table
-}
-@media screen and (max-width:500px){
-  .column11{
-    width:100%
+    nav ul li {
+      display: block;
+    }
+    nav ul li a {
+      font-size: 20px;
+      font-weight: 800;
+    }
+    a:hover,
+    a.active {
+      background: none;
+      color: black;
+    }
+    #check:checked ~ ul {
+      left: 0;
+    }
   }
+  .logo {
+    font-family: kalam;
+    text-align: center;
+    color: black;
+    background: white;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
   }
-  /*Container-3-Styling*/
-.column12{
-  float:left;
-  width:50%;
-  padding:10%;
-  
-  margin-top:10%;
-}
-.row::after{
-  content:"";
-  clear:both;
-  display:table
-}
-@media screen and (max-width:500px){
-  .column12{
-    width:100%
+  .active {
+    font-family: kalam;
+    text-align: center;
+    font-weight: 800;
+    color: black;
+    background: white;
   }
-  }
-
-.Font-Family{
-  color: white;
-  font-family: kalam !important;
-  font-size: x-large;
+/*Preset button styling*/
+#Preset-Button{
+border-color: black;
+padding: 7px 13px;
+font-size: xx-large;
 }
-.Font-Family1{
-  color: white;
-  font-family:caveat  !important;
-  font-size: medium;
-  margin-top: -6%;
+/*Icons Styling*/
+.Nav-Icon{
+  width: 20px;
+  height: 20px;
 }
-.image-9{
-  border-radius: 30px;
-  width: 80%;
-  margin-left: 10%;
-  max-width: 100%;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
-  -o-border-radius: 30px;
-}
-.font_10{
-  font-family: caveat !important;
-  font-size:25px;
-  font-style: caveat;
-}
-.Font_11{
-  font-family: caveat !important;
-  font-size: medium;
-  font-style: caveat;
-  text-align: center;
-}
-.color_11{
-  font-family: caveat !important;
-}
-.Icons{
+.First-Page-Icon{
   width: 30px;
   height: 30px;
 }
-.Icons-1{
-  float: right;
-  margin-right: 5%;
+.Social-Icons li{
+  display: inline-block;
 }
-.Image-1{
-  width: 20%;
-}
-.Icon{
+.Social-Icons {
   text-align: center;
 }
-.column8{
-  float:left;
-  width:33.33%;
-  padding:5px;
+/*FIrst Page Styling*/
+.First-Page-Main{
+text-align: center;
+font-size: x-large;
+font-weight: 400;
+margin-top: -40%;
+color: white;
 }
-.row8::after{
-  content:"";
-  clear:both;
-  display:table
-}
-@media screen and (max-width:500px){
-  .column8{
-    width:100%
-  }
-  }
-  .container {
-    position: relative;
-    width: 50%;
-  }
-  
-  .image {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-  }
-  
-  .middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  
-  .container:hover .image {
-    opacity: 0.3;
-  }
-  
-  .container:hover .middle {
-    opacity: 1;
-  }
-  
-  .text {
-    background-color: #04AA6D;
-    color: white;
-    font-size: 16px;
-    padding: 16px 32px;
-  }
- 
- /*Preset Container Styling*/
- .Preset-Text{
-  font-family: "kalam" !important;
-  font-size: xx-large;
-  color: white;
-}
-.Presets{
+/*Images Styling*/
+.First-Page-Image{
   max-width: 100%;
+  width: 100%;
+  height: auto;
+  max-height: 550px;
 }
-.Preset-column {
-  float: left;
+/*Headings Styling*/
+.Main-Page-Headings{
   text-align: center;
-  width: 30%;
-  margin-left: 2.5%;
-  background-color: #16161d;
-  box-shadow: 0px 2px 0px 2px whitesmoke;
+  margin-top: 35%;
 }
-@media screen and (max-width: 500px) {
-  .Preset-column {
-    width: 100%;
-    margin-left: 0%;
-  }
-}
-.Preset-Description{
+/*Paragraphs Styling*/
+.Main-Page-Paragraphs{
   text-align: center;
-  font-size: medium;
-}
-.Preset-Price{
-  color:azure;
-  font-size: xx-large;
+  font-weight: 600;
+  font-size: larger;
 }
