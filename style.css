@@ -144,6 +144,19 @@ font-weight: 400;
 margin-top: -30%;
 color: white;
 }
+.About-Image{
+  text-align: center;
+  
+}
+.About-Image-1{
+ max-width: 100%;
+ width: 30%;
+ border-radius: 20px;
+ -webkit-border-radius: 20px;
+ -moz-border-radius: 20px;
+ -ms-border-radius: 20px;
+ -o-border-radius: 20px;
+}
 /*Images Styling*/
 .First-Page-Image{
   max-width: 100%;
