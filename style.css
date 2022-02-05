@@ -217,6 +217,13 @@ color: white;
   font-weight: 800;
   font-size: x-large;
 }
+.column-Icons{
+  float:center;
+  text-align: center;
+  font-family: kalam !important;
+  font-weight: 1000;
+  font-size: x-large;
+}
 .column1{
   float:left;
   width: 50%;
@@ -251,6 +258,9 @@ color: white;
 }
 @media screen and (max-width:500px){
   .column{
+    width:100%
+  }
+  .column-Icons{
     width:100%
   }
   .column1{
@@ -288,4 +298,27 @@ color: white;
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+.Contact-Page-Headings{
+  align-items: center;
+}
+.Social-Icons-1 li{
+  display: inline-block;
+}
+.Social-Icons-1 {
+  text-align: center;
+}
+.Nav-Icon-1{
+  width: 30px;
+  height: 30px;
+  border-color: blue;
+  border-radius: 50%;
+  border-style:solid;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+p{
+  font-size: large;
 }
