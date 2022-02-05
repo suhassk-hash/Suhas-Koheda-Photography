@@ -141,7 +141,7 @@ font-size: xx-large;
 text-align: center;
 font-size: x-large;
 font-weight: 400;
-margin-top: -30%;
+margin-top: -35%;
 color: white;
 }
 .About-Image{
@@ -166,7 +166,7 @@ color: white;
 /*Headings Styling*/
 .Main-Page-Headings{
   text-align: center;
-  margin-top: 25%;
+  margin-top: 30%;
 }
 .About-Page-Headings{
   text-align: center;
@@ -267,4 +267,25 @@ color: white;
 .Personal-Favourite-Image{
   max-width: 100%;
   padding: 10px;
+}
+/*Scrollbar Styling */
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+  
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius:100px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
