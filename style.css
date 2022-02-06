@@ -259,6 +259,14 @@ color: white;
   font-weight: 800;
   font-size: x-large;
 }
+.Preset-column {
+  float: left;
+  text-align: center;
+  width: 30.33%;
+  margin-left: 1%;
+  background-color: #16161d;
+  box-shadow: 0px 2px 0px 2px whitesmoke;
+}
 .row::after{
   content:"";
   clear:both;
@@ -288,14 +296,6 @@ color: white;
   }
   .Presets{
     max-width: 100%;
-  }
-  .Preset-column {
-    float: left;
-    text-align: center;
-    width: 30.33%;
-    margin-left: 1%;
-    background-color: #16161d;
-    box-shadow: 0px 2px 0px 2px whitesmoke;
   }
 /*Footer Styling*/
 .Footer-Paragraph{
