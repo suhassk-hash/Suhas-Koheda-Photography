@@ -166,7 +166,7 @@ color: white;
 /*Headings Styling*/
 .Main-Page-Headings{
   text-align: center;
-  margin-top: 30%;
+  margin-top: 32%;
 }
 .About-Page-Headings{
   text-align: center;
@@ -232,6 +232,14 @@ color: white;
   font-weight: 800;
   font-size: x-large;
 }
+.column-Image{
+  float:left;
+  width: 40%;
+  padding: 2px;
+  font-family: kalam !important;
+  font-weight: 800;
+  font-size: x-large;
+}
 .Personal-Favourites{
   background-color: #16161d;
   height: 435px;
@@ -269,6 +277,25 @@ color: white;
   .column2{
     width: 100%;
   }
+  .Preset-column{
+    width: 100%;
+  }
+  }
+  .Preset-Text{
+    font-family: "kalam" !important;
+    font-size: xx-large;
+    color: white;
+  }
+  .Presets{
+    max-width: 100%;
+  }
+  .Preset-column {
+    float: left;
+    text-align: center;
+    width: 30.33%;
+    margin-left: 1%;
+    background-color: #16161d;
+    box-shadow: 0px 2px 0px 2px whitesmoke;
   }
 /*Footer Styling*/
 .Footer-Paragraph{
